@@ -1,0 +1,19 @@
+{
+  "name": "refactoring",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.15"
+  }
+}

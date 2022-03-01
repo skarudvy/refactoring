@@ -1,8 +1,8 @@
 import { readJSON } from '../fileController.js'
 import statement from './statement.js'
 
-const invoices = readJSON('invoices.json')
-const plays = readJSON('plays.json')
+const invoices = readJSON('ch01/invoices.json')
+const plays = readJSON('ch01/plays.json')
 
 invoices.forEach(invoice => {
   console.log(statement(invoice, plays))

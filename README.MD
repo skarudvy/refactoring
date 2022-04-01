@@ -12,5 +12,8 @@ yarn add --dev jest
 
 ```
 
+# start
+yarn start ch01/main.js
+
 # test 실행 watch
 yarn run test --watchAll
